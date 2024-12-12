@@ -1,0 +1,116 @@
+body {
+	background-color: rgb(96, 56, 41);
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+}
+
+#Welcome {
+	color: goldenrod;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+	font-size: x-large;
+}
+
+#Welcome1 {
+	color: goldenrod;
+	margin-top: 200px;
+	text-align: center;
+	position: relative;
+	font-size: x-large;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+#image2 {
+	margin: 10px;
+	top: 10px;
+	left: 950px;
+	width: 8%;
+	height: 100%;
+	display: inline-block;
+  max-width: 100%;
+  float: none;
+  position: relative;
+  z-index: 10;
+}
+
+#image1 {
+	margin: 10px;
+	top: 10px;
+	left: 250px;
+	width: 18%;
+	height: 100%;
+	display: inline-block;
+  max-width: 100%;
+  float: none;
+  position: relative;
+  z-index: 10;
+}
+
+h1 {
+	color: goldenrod;
+}
+
+header {
+	background-color: rgb(86, 46, 31);
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: goldenrod;
+	text-decoration: none;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: goldenrod;
+	border: none;
+	color: rgb(86, 46, 31);
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	color: blueviolet;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1vh;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: brown;
+  background-color: goldenrod;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: -300px;
+}
